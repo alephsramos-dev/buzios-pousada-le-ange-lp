@@ -9,11 +9,23 @@ html, body {
     scroll-behavior: smooth;
 }
 
+@keyframes shine {
+    0% {
+      left: -200px;
+    }
+    60% {
+      left: 100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+
 .fixed-element {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 10px;
+    left: 2.5%;
+    width: 95%;
     background-color: rgba(62, 149, 202, 0.897);
     backdrop-filter: blur(2px);
     text-align: center;
@@ -25,6 +37,25 @@ html, body {
     gap: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     padding: 15px 5%;
+    overflow: hidden;
+    border-radius: 20px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 200px; /* Ajuste conforme necessário */
+        height: 100%;
+        background-image: linear-gradient(
+          120deg,
+          rgba(255, 255, 255, 0) 30%,
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0) 70%
+        );
+        top: 0;
+        left: -200px;
+        opacity: 0.6;
+        animation: shine 4.5s ease-out infinite;
+    }
 
     @media (max-width: 768px) {
         flex-direction: column;    
