@@ -52,14 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("Botão de avançar foi clicado com sucesso");
     })
 
-    // Carrossel para a seção de palavra do hospede
+    // Carrossel para a seção de depoimentos
 
-    var splidePalavra = new Splide('#palavra-carrossel', {
+    var splideDepoimentosDois = new Splide('#depoimentosDois-carrossel', {
         arrows: false,
         pagination: false,
         type: 'loop',
         snap: true,
-        perPage: 3,
+        perPage: 1,
         autoplay: true,
         gap: 20,
         breakpoints: {
@@ -68,18 +68,17 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
-    splidePalavra.mount();
+    splideDepoimentosDois.mount();
 
-    document.getElementById('palavra-btnPrev').addEventListener('click', function () {
-        splidePalavra.go('<');
+    document.getElementById('depoimentosDois-btnPrev').addEventListener('click', function () {
+        splideDepoimentosDois.go('<');
         console.log("Botão de voltar foi clicado com sucesso");
     })
 
-    document.getElementById('palavra-btnNext').addEventListener('click', function () {
-        splidePalavra.go('>');
+    document.getElementById('depoimentosDois-btnNext').addEventListener('click', function () {
+        splideDepoimentosDois.go('>');
         console.log("Botão de avançar foi clicado com sucesso");
     })
-    
 
     // Carrossel para a seção de garantia
 

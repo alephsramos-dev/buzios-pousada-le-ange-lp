@@ -1,3 +1,110 @@
 .problemas {
+    width: 100%;
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
 
+    @media (max-width: 768px){
+        gap: 30px;            
+    }
+
+    & > header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+
+        & h1 {
+            font-size: 34px;
+            width: 65%;
+            font-weight: 300;
+            text-align: center;
+
+            @media (max-width: 768px){
+                width: 100%;
+                font-size: 28px;    
+            }
+
+            & b {
+                font-weight: 400;
+                color: var(--color--red);
+            }
+        }
+
+        & p {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+    & > aside {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+
+        & ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 15px;
+
+            @media (max-width: 768px){
+                flex-direction: column; 
+                gap: 25px;   
+            }
+
+            & li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                text-align: center;
+                transition: all .5s ease-in-out!important;
+                padding: 15px;
+                border-radius: 20px;
+
+                &:hover {
+                    box-shadow:  10px 10px 20px #cccccc,
+             -10px -10px 20px #ffffff;
+                    transform: translateY(-5px)!important;
+                    cursor: url('https://imagedelivery.net/1n9Gwvykoj9c9m8C_4GsGA/4614c2b6-8cdd-44ea-a33a-fdf0fba56d00/public'), auto;
+                }
+
+                @media (max-width: 768px){
+                    flex-direction: row;
+                    text-align: left;
+                    padding: 5px;
+                }
+
+                & img {
+                    border: 1px solid red;
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                & p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    width: 80%;
+
+                    & b {
+                        font-weight: 400;
+                        color: var(--color--red);
+                    }
+                }
+            }
+        }
+    }
 }

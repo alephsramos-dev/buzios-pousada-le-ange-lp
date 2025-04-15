@@ -9,8 +9,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-
-
 .fixed-element {
     position: fixed;
     top: 0;
