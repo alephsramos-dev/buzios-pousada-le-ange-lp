@@ -73,8 +73,8 @@
                 border-radius: 20px;
 
                 &:hover {
-                    box-shadow:  10px 10px 20px #cccccc,
-             -10px -10px 20px #ffffff;
+                    box-shadow:  5px 5px 10px #cccccc,
+             -5px -5px 10px #ffffff;
                     transform: translateY(-5px)!important;
                     cursor: url('https://imagedelivery.net/1n9Gwvykoj9c9m8C_4GsGA/4614c2b6-8cdd-44ea-a33a-fdf0fba56d00/public'), auto;
                 }
@@ -82,7 +82,8 @@
                 @media (max-width: 768px){
                     flex-direction: row;
                     text-align: left;
-                    padding: 5px;
+                    padding: 10px;
+                    border-radius: 40px 20px 20px 40px;   
                 }
 
                 & img {

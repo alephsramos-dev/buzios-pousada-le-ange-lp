@@ -75,4 +75,5 @@ input:-webkit-autofill {
 /* Desabilitar o menu de toque (callout) em links, evitando a exibição de atalhos de cópia/definição */
 a {
     -webkit-touch-callout: none;
+    color: inherit;
 }
