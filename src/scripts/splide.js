@@ -57,15 +57,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var splideDepoimentosDois = new Splide('#depoimentosDois-carrossel', {
         arrows: false,
         pagination: false,
-        type: 'loop',
+        drag: 'free',
+        snap: 'true',
+        gap: 50,
         perPage: 1,
         autoplay: true,
-        gap: 10,
-        breakpoints: {
-            768: {
-                perPage: 1,
-            }
-        }
     });
     splideDepoimentosDois.mount();
 
