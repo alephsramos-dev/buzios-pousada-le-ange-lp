@@ -345,6 +345,25 @@
                         width: 60px;
                         height: 60px;
                         border-radius: 50%;
+                        overflow: hidden;
+
+                        &::after {
+                            content: "";
+                            border-radius: 50px;
+                            position: absolute;
+                            width: 100px; /* Ajuste conforme necessário */
+                            height: 100%;
+                            background-image: linear-gradient(
+                              120deg,
+                              rgba(255, 255, 255, 0) 30%,
+                              rgba(255, 255, 255, 0.8),
+                              rgba(255, 255, 255, 0) 70%
+                            );
+                            top: 0;
+                            left: -200px;
+                            opacity: 0.7;
+                            animation: shine 3.5s ease-out infinite;
+                        }
 
                         @media (max-width: 768px){
                             width: 50px;

@@ -47,6 +47,23 @@
     position: relative;
     transition: all .2s ease-in-out;
 
+    &::after {
+        content: "";
+        position: absolute;
+        width: 400px; /* Ajuste conforme necessário */
+        height: 100%;
+        background-image: linear-gradient(
+          120deg,
+          rgba(255, 255, 255, 0) 30%,
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0) 70%
+        );
+        top: 0;
+        left: -200px;
+        opacity: 0.5;
+        animation: shine 6.5s ease-out infinite;
+    }
+
     &:hover {
         transform: scale(0.98);
         background-color: #e1e1e1;

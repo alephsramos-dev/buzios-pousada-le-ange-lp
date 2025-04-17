@@ -71,15 +71,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     splideDepoimentosDois.mount();
 
-    document.getElementById('depoimentosDois-btnPrev').addEventListener('click', function () {
-        splideDepoimentosDois.go('<');
-        console.log("Botão de voltar foi clicado com sucesso");
-    })
+    var prevBtns = document.querySelectorAll('.depoimentosDois-btnPrev');
+    var nextBtns = document.querySelectorAll('.depoimentosDois-btnNext');
 
-    document.getElementById('depoimentosDois-btnNext').addEventListener('click', function () {
+    prevBtns.forEach(function(btn) {
+        btn.addEventListener('click', function () {
+        splideDepoimentosDois.go('<');
+        console.log("Voltar");
+        });
+    });
+
+    nextBtns.forEach(function(btn) {
+        btn.addEventListener('click', function () {
         splideDepoimentosDois.go('>');
-        console.log("Botão de avançar foi clicado com sucesso");
-    })
+        console.log("Avançar");
+        });
+    });
 
     // Carrossel para a seção de garantia
 
