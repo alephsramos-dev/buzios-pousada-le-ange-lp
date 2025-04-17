@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     
     var splideAutoridade = new Splide('#autoridade-carrossel', {
         arrows: false,
-        type: 'loop',
         perPage: 1,
         autoplay: true,
         pagination: true,
@@ -34,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var splideDepoimentos = new Splide('#depoimentos-carrossel', {
         arrows: false,
         pagination: false,
-        type: 'loop',
         drag: 'free',
         snap: true,
         perPage: 1,
