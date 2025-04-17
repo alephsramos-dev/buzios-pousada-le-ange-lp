@@ -6,6 +6,10 @@
     justify-content: center;
     gap: 20px;
 
+    @media (max-width: 768px){
+        margin-bottom: 30px;
+    }
+
     & header {
         width: 100%;
         display: flex;
@@ -319,7 +323,7 @@
                 }
 
                 & p {
-                    font-size: 38px;
+                    font-size: 28px;
                     text-align: center;
                     width: 90%;
                     font-family: var(--font--comfortaa);
@@ -327,7 +331,7 @@
                     font-weight: 300;
 
                     @media (max-width: 768px){
-                        font-size: 26px;    
+                        font-size: 20px;    
                     }
                 }
 

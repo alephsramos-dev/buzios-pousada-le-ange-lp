@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         pagination: false,
         type: 'loop',
         snap: true,
+        focus: 'center',
         perPage: 1,
         autoplay: true,
         gap: 20,
