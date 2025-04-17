@@ -202,7 +202,7 @@
                     border: 1px solid red;
                     width: 75px;
                     height: 75px;
-                    border-radius: 50px;
+                    border-radius: 50%;
                     object-fit: cover;
                     object-position: center;
                 }
