@@ -184,6 +184,13 @@
                 padding: 15px;
                 border-radius: 20px;
 
+                &.active{
+                    box-shadow:  5px 5px 10px #cccccc,
+                    -5px -5px 10px #ffffff;
+                           transform: translateY(-5px)!important;
+                           cursor: url('https://imagedelivery.net/1n9Gwvykoj9c9m8C_4GsGA/4614c2b6-8cdd-44ea-a33a-fdf0fba56d00/public'), auto;
+                }
+
                 &:hover {
                     box-shadow:  5px 5px 10px #cccccc,
              -5px -5px 10px #ffffff;

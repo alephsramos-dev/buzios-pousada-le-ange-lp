@@ -24,7 +24,7 @@ html, body {
 
 .fixed-element {
     position: fixed;
-    top: 10px;
+    top: 20px;
     left: 2.5%;
     width: 95%;
     background-color: rgba(62, 149, 202, 0.897);
