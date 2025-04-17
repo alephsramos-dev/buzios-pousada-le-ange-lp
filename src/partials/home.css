@@ -36,7 +36,7 @@
             top: 0;
             border-image: fill 0 linear-gradient(45deg, #000, #0000);
             border-radius: 25px;
-            opacity: 0.8;
+            opacity: 1;
         }
 
         & img {

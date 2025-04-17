@@ -58,11 +58,9 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows: false,
         pagination: false,
         type: 'loop',
-        snap: true,
-        focus: 'center',
         perPage: 1,
         autoplay: true,
-        gap: 20,
+        gap: 10,
         breakpoints: {
             768: {
                 perPage: 1,
