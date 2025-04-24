@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var splideAutoridade = new Splide('#autoridade-carrossel', {
         arrows: false,
         perPage: 1,
-        autoplay: true,
+        autoplay: false,
         pagination: true,
         focus: 'center',
         focus: clearInterval,
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
         drag: 'free',
         snap: true,
         perPage: 1,
-        autoplay: true,
+        autoplay: false,
     });
     splideDepoimentos.mount();
 
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         snap: 'true',
         gap: 50,
         perPage: 1,
-        autoplay: true,
+        autoplay: false,
     });
     splideDepoimentosDois.mount();
 
