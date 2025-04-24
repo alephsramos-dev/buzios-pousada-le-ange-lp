@@ -46,7 +46,8 @@ src/
 │   ├── textAnimated.js # Funcionalidade de alteração dos textos na seção inicial
 │   └── main.js         # Funções gerais do site
 │
-└── index.html          # Ponto de entrada
+
+index.html          # Ponto de entrada
 ```
 
 ---
