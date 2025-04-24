@@ -17,29 +17,34 @@ https://alephsramos-dev.github.io/buzios-pousada-le-ange-lp/
 
 ```
 public/
-└── sitemap.xml             # Imagens, ícones e fontes
+└── sitemap.xml         # Arquitetura para leitura do site na web
 
 src/
+├── components/         # Components que se repetem no site (header e botões)
+│   ├── button-style-black.css     
+│   ├── button-style-white.css   
+│   └── header-padrao.css
+│
 ├── global/
 │   ├── reset.css       # Reset de estilo do navegador
-│   ├── variables.css   # Variáveis (cores, fontes, espaçamentos)
+│   ├── variables.css   # Variáveis (cores e fontes)
 │   └── global.css      # Estilos globais
 │
-├── partials/           # Seções da página
-│   ├── header.html
-│   ├── hero.html
-│   ├── about.html
-│   ├── features.html
-│   ├── form.html
-│   └── footer.html
-│
-├── components/         # Componentes reaproveitáveis
-│   ├── button.html
-│   └── title.html
+├── partials/           # Seções da página, com seu estilo CSS
+│   ├── autoridade.css
+│   ├── depoimentos.css
+│   ├── garantia.css
+│   ├── home.css
+│   ├── oferta.css
+│   ├── passo-a-passo.css
+│   └── problemas.css
 │
 ├── scripts/
-│   ├── main.js         # Interações gerais
-│   └── formHandler.js  # Validação e envio de formulário
+│   ├── form.js         # Funcionalidade do formulário
+│   ├── progress.js     # Barra de progresso da seção de passo a passo, interativa com o scroll
+│   ├── splide.js       # Funcionalidade de todos os carrosseis do site
+│   ├── textAnimated.js # Funcionalidade de alteração dos textos na seção inicial
+│   └── main.js         # Funções gerais do site
 │
 └── index.html          # Ponto de entrada
 ```
