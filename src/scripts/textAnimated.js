@@ -1,6 +1,6 @@
 // Animação do titulo
 
-const palavras = ["inesquecível", "marcante", "memorável"];
+const palavras = ["conforto", "marcante", "memorável"];
     let indicePalavra = 0;     // Índice da palavra atual no array
     let indiceCaractere = 0;   // Índice do caractere atual da palavra
     let deletando = false;     // Flag que indica se está deletando ou escrevendo
