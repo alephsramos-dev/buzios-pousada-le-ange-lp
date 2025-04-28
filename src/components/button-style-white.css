@@ -12,6 +12,7 @@
     font-weight: 400;
     color: #fff;
     box-shadow: 0 0 0 2px #fff;
+    background-color: #008000;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -39,7 +40,7 @@
         transform: translate(-50%, -50%);
         width: 20px;
         height: 20px;
-        background-color: #fff;
+        background-color: #008000;
         border-radius: 50%;
         opacity: 0;
         transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -54,7 +55,7 @@
 
     &:hover {
         box-shadow: 0 0 0 12px transparent;
-        color: #212121;
+        color: #fff;
         border-radius: 12px;
 
         & .arr-1 {
@@ -70,7 +71,7 @@
         }
 
         & svg {
-            fill: #212121;
+            fill: #fff;
         }
 
         & .circle {

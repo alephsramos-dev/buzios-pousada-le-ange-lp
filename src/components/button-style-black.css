@@ -10,8 +10,8 @@
     background-color: inherit;
     border-radius: 100px;
     font-weight: 400;
-    color: #000;
-    box-shadow: 0 0 0 2px #000;
+    color: #008000;
+    box-shadow: 0 0 0 2px #008000;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1)!important;
@@ -19,7 +19,7 @@
     & svg {
         position: absolute;
         width: 24px;
-        fill: #000;
+        fill: #008000;
         z-index: 9;
         transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1)!important;
     }
@@ -39,7 +39,7 @@
         transform: translate(-50%, -50%)!important;
         width: 20px;
         height: 20px;
-        background-color: #000;
+        background-color: #008000;
         border-radius: 50%;
         opacity: 0;
         transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1)!important;
