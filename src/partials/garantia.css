@@ -101,20 +101,26 @@
 
 .garantia-buttons {
     position: absolute;
-    bottom: -50px;
+    top: 30%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
-    width: 100%;
+    width: 90%;
+    z-index: 9999!important;
+
+    @media (max-width: 768px){
+        width: 80%;        
+    }
 
     & .garantia-btnNext,
     .garantia-btnPrev {
         border: none;
         background-color: #E9E9E9;
         width: 35px;
+        z-index: 9999!important;
         height: 35px;
         border-radius: 10px;
         cursor: pointer;
@@ -132,14 +138,6 @@
             display: contents;
             fill: #353535;
         }
-    }
-
-    & .garantia-btnPrev{
-        left: 20px;
-    }
-
-    & .garantia-btnNext{
-        right: 20px;
     }
 }
 
