@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows: false,
         perPage: 1,
         autoplay: false,
-        pagination: true,
+        pagination: false,
         focus: 'center',
         focus: clearInterval,
         gap: 10,

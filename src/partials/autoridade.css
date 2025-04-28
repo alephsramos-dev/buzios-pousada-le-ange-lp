@@ -40,7 +40,10 @@
                 border-radius: 20px;
 
                 @media (max-width: 768px){
-                    min-height: 550px;        
+                    height: 100%; 
+                    align-items: flex-start;
+                    justify-content: center;  
+                    background-color: #f9f9f9;     
                 }
 
                 & figure {
@@ -52,7 +55,9 @@
                     overflow: hidden;
 
                     @media (max-width: 768px){
-
+                        height: 400px;
+                        position: relative;
+                        z-index: 1;
                     }
 
                     &::before{
@@ -66,7 +71,7 @@
                         opacity: 0.6;
 
                         @media (max-width: 768px){
-                            opacity: 0.8;
+                            opacity: 0;
                         }
                     }
 
@@ -78,7 +83,7 @@
                         object-position: center;
 
                         @media (max-width: 768px){
-                            min-height: 550px;
+                            height: 100%;
                         }
                     }
                 }
@@ -92,6 +97,7 @@
 
                     @media (max-width: 768px){
                         font-size: 24px;
+                        color: #000;
                         padding: 10px 0px 0 20px;
                     }
 
@@ -110,6 +116,7 @@
 
                     @media (max-width: 768px){
                         font-size: 15px;
+                        color: #000;
                         width: 90%;    
                         padding: 0px 0 10px 20px;
                     }
