@@ -146,6 +146,10 @@
     justify-content: space-between;
     width: 100%;
 
+    @media (max-width: 768px){
+        top: 20%;
+    }
+
     & .autoridade-btnNext,
     .autoridade-btnPrev {
         border: none;
