@@ -29,12 +29,12 @@
 
         &::before{
             content: '';
-            width: 100%;
+            width: 60%;
             height: 100%;
             position: absolute;
             left: 0;
             top: 0;
-            border-image: fill 0 linear-gradient(45deg, #000, #0000);
+            border-image: fill 0 linear-gradient(90deg, #000, #0000);
             border-radius: 25px;
             opacity: 1;
         }
@@ -96,7 +96,7 @@
         & p {
             font-size: 20px;
             font-weight: 200;
-            width: 60%;
+            width: 50%;
             line-height: 110%;
 
             @media (max-width: 768px){
