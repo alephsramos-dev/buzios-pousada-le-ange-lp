@@ -39,6 +39,8 @@
             opacity: 1;
 
             @media (max-width: 768px){
+                height: 70%;
+                top: 30%!important;
                 border-image: fill 0 linear-gradient(0deg, #000, #0000);
                 width: 100%;
             }
