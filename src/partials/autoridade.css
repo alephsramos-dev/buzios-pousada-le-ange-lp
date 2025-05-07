@@ -151,7 +151,7 @@
     width: 100%;
 
     @media (max-width: 768px){
-        top: 20%;
+        top: 10%;
     }
 
     & .autoridade-btnNext,

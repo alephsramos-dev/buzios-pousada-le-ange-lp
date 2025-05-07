@@ -88,9 +88,9 @@
                     padding-left: 10px;
 
                     & b {
-                        color: var(--color--blue);
+                        color: blue;
                         text-decoration: underline;
-                        font-weight: 200;
+                        font-weight: 300;
                         cursor: pointer;
                     }
                 }
