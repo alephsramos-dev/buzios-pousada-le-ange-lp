@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 25px;
 
     @media (max-width: 768px){
         gap: 30px; 
@@ -19,7 +19,7 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        padding: 2.5%;
+        padding: 0 2.5%;
         gap: 15px;
 
         @media (max-width: 768px){
@@ -127,7 +127,7 @@
                     }
     
                     & img {
-                        width: 200px;
+                        width: 150px;
                     }
     
                     & div {
@@ -214,7 +214,7 @@
             }
 
             & img {
-                width: 150px;
+                width: 175px;
             }
 
             & div {
@@ -234,7 +234,7 @@
 
                 & span {
                     font-weight: 500;
-                    font-size: 20px;
+                    font-size: 16px;
                     text-align: center;
     
                     @media (max-width: 768px){
@@ -319,8 +319,8 @@
                         }
     
                         & img {
-                            width: 50px;
-                            height: 50px;
+                            width: 35px;
+                            height: 35px;
                             object-fit: cover;
                             border-radius: 50%;
                             border: 2px solid #fff;
